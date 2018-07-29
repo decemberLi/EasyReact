@@ -12,6 +12,16 @@
 		222515DA1F289A7600291583 /* receive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222515D81F28997700291583 /* receive.swift */; };
 		2233CD831ECDC8B700C9E016 /* TestKVOClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22461FAE1ECAE48F008C3ED3 /* TestKVOClass.m */; };
 		22964B592110314100AFC256 /* TestListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 22964B582110314100AFC256 /* TestListener.m */; };
+		224261CE210DBA9A006A89D7 /* UITextField+EZR_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261CD210DBA9A006A89D7 /* UITextField+EZR_Extension.m */; };
+		224261D2210DBFB8006A89D7 /* Fork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224261D1210DBFB8006A89D7 /* Fork.storyboard */; };
+		224261D5210DC2B3006A89D7 /* EZRForkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261D4210DC2B3006A89D7 /* EZRForkViewController.m */; };
+		224261DB210DC789006A89D7 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224261D9210DC789006A89D7 /* Map.storyboard */; };
+		224261DE210DC8B9006A89D7 /* EZRJSVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261DD210DC8B9006A89D7 /* EZRJSVM.m */; };
+		224261E1210DCE40006A89D7 /* EZRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261E0210DCE40006A89D7 /* EZRMapViewController.m */; };
+		224261E3210DDC7E006A89D7 /* NodeValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224261E2210DDC7E006A89D7 /* NodeValueView.xib */; };
+		224261E7210DE693006A89D7 /* EZRNodeValueTraceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261E5210DE693006A89D7 /* EZRNodeValueTraceCell.m */; };
+		224261E8210DE693006A89D7 /* EZRNodeValueTraceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224261E6210DE693006A89D7 /* EZRNodeValueTraceCell.xib */; };
+>>>>>>> feat: WIP create demo examples.
 		22994F2120F499EB00587E34 /* EZRCancelableBagSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 22994F1F20F4990E00587E34 /* EZRCancelableBagSpec.m */; };
 		5A341A1FB3668AF88FC7EDFB /* Pods_EasyReact_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D172FCD4CCC447B2169939 /* Pods_EasyReact_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -20,7 +30,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ERAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ERViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -77,6 +86,20 @@
 		222515D31F28823F00291583 /* beEmptyValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beEmptyValue.swift; sourceTree = "<group>"; };
 		222515D71F28997600291583 /* EasyReact_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyReact_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		222515D81F28997700291583 /* receive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receive.swift; sourceTree = "<group>"; };
+		224261CC210DBA9A006A89D7 /* UITextField+EZR_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+EZR_Extension.h"; sourceTree = "<group>"; };
+		224261CD210DBA9A006A89D7 /* UITextField+EZR_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EZR_Extension.m"; sourceTree = "<group>"; };
+		224261D1210DBFB8006A89D7 /* Fork.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fork.storyboard; sourceTree = "<group>"; };
+		224261D3210DC2B3006A89D7 /* EZRForkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRForkViewController.h; sourceTree = "<group>"; };
+		224261D4210DC2B3006A89D7 /* EZRForkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRForkViewController.m; sourceTree = "<group>"; };
+		224261D9210DC789006A89D7 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		224261DC210DC8B9006A89D7 /* EZRJSVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRJSVM.h; sourceTree = "<group>"; };
+		224261DD210DC8B9006A89D7 /* EZRJSVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRJSVM.m; sourceTree = "<group>"; };
+		224261DF210DCE40006A89D7 /* EZRMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRMapViewController.h; sourceTree = "<group>"; };
+		224261E0210DCE40006A89D7 /* EZRMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRMapViewController.m; sourceTree = "<group>"; };
+		224261E2210DDC7E006A89D7 /* NodeValueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NodeValueView.xib; sourceTree = "<group>"; };
+		224261E4210DE693006A89D7 /* EZRNodeValueTraceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRNodeValueTraceCell.h; sourceTree = "<group>"; };
+		224261E5210DE693006A89D7 /* EZRNodeValueTraceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRNodeValueTraceCell.m; sourceTree = "<group>"; };
+		224261E6210DE693006A89D7 /* EZRNodeValueTraceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EZRNodeValueTraceCell.xib; sourceTree = "<group>"; };
 		22461FAD1ECAE48F008C3ED3 /* TestKVOClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestKVOClass.h; sourceTree = "<group>"; };
 		22461FAE1ECAE48F008C3ED3 /* TestKVOClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestKVOClass.m; sourceTree = "<group>"; };
 		22461FB01ECAE4EA008C3ED3 /* NSObject+ER_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSObject+ER_Extension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -98,8 +121,6 @@
 		6003F59B195388D20070C39A /* EasyReact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyReact-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* EasyReact_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyReact_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -204,6 +225,50 @@
 			path = TestSupportClasses;
 			sourceTree = "<group>";
 		};
+		224261CB210DB9D7006A89D7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				224261CC210DBA9A006A89D7 /* UITextField+EZR_Extension.h */,
+				224261CD210DBA9A006A89D7 /* UITextField+EZR_Extension.m */,
+				224261DC210DC8B9006A89D7 /* EZRJSVM.h */,
+				224261DD210DC8B9006A89D7 /* EZRJSVM.m */,
+				224261E2210DDC7E006A89D7 /* NodeValueView.xib */,
+				224261E4210DE693006A89D7 /* EZRNodeValueTraceCell.h */,
+				224261E5210DE693006A89D7 /* EZRNodeValueTraceCell.m */,
+				224261E6210DE693006A89D7 /* EZRNodeValueTraceCell.xib */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		224261CF210DBF67006A89D7 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				224261D6210DC789006A89D7 /* Map */,
+				224261D0210DBF91006A89D7 /* Fork */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		224261D0210DBF91006A89D7 /* Fork */ = {
+			isa = PBXGroup;
+			children = (
+				224261D1210DBFB8006A89D7 /* Fork.storyboard */,
+				224261D3210DC2B3006A89D7 /* EZRForkViewController.h */,
+				224261D4210DC2B3006A89D7 /* EZRForkViewController.m */,
+			);
+			path = Fork;
+			sourceTree = "<group>";
+		};
+		224261D6210DC789006A89D7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				224261D9210DC789006A89D7 /* Map.storyboard */,
+				224261DF210DCE40006A89D7 /* EZRMapViewController.h */,
+				224261E0210DCE40006A89D7 /* EZRMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		2270A7D7CAA90A7ABE07A02A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,11 +338,11 @@
 		6003F593195388D20070C39A /* Example for EasyReact */ = {
 			isa = PBXGroup;
 			children = (
+				224261CF210DBF67006A89D7 /* Examples */,
+				224261CB210DB9D7006A89D7 /* Libs */,
 				6003F59C195388D20070C39A /* ERAppDelegate.h */,
 				6003F59D195388D20070C39A /* ERAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ERViewController.h */,
-				6003F5A6195388D20070C39A /* ERViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -517,8 +582,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				224261D2210DBFB8006A89D7 /* Fork.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				224261DB210DC789006A89D7 /* Map.storyboard in Resources */,
+				224261E8210DE693006A89D7 /* EZRNodeValueTraceCell.xib in Resources */,
+				224261E3210DDC7E006A89D7 /* NodeValueView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -683,9 +752,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224261D5210DC2B3006A89D7 /* EZRForkViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ERAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ERViewController.m in Sources */,
+				224261CE210DBA9A006A89D7 /* UITextField+EZR_Extension.m in Sources */,
+				224261E1210DCE40006A89D7 /* EZRMapViewController.m in Sources */,
+				224261E7210DE693006A89D7 /* EZRNodeValueTraceCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				224261DE210DC8B9006A89D7 /* EZRJSVM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -898,7 +971,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyReact/EasyReact-Prefix.pch";
 				INFOPLIST_FILE = "EasyReact/EasyReact-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -919,7 +992,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyReact/EasyReact-Prefix.pch";
 				INFOPLIST_FILE = "EasyReact/EasyReact-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
