@@ -21,7 +21,7 @@
 		224261E3210DDC7E006A89D7 /* NodeValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224261E2210DDC7E006A89D7 /* NodeValueView.xib */; };
 		224261E7210DE693006A89D7 /* EZRNodeValueTraceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224261E5210DE693006A89D7 /* EZRNodeValueTraceCell.m */; };
 		224261E8210DE693006A89D7 /* EZRNodeValueTraceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224261E6210DE693006A89D7 /* EZRNodeValueTraceCell.xib */; };
->>>>>>> feat: WIP create demo examples.
+
 		22994F2120F499EB00587E34 /* EZRCancelableBagSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 22994F1F20F4990E00587E34 /* EZRCancelableBagSpec.m */; };
 		5A341A1FB3668AF88FC7EDFB /* Pods_EasyReact_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D172FCD4CCC447B2169939 /* Pods_EasyReact_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -39,7 +39,15 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C1E0B7DA579F61BB8A613C01 /* Pods_Benchmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB68896E2887DEF7EBF41A1 /* Pods_Benchmark.framework */; };
+		CE0130C3211055F900ADA094 /* EZRValueSnapshotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0130C2211055F900ADA094 /* EZRValueSnapshotView.m */; };
+		CE0130C52110592A00ADA094 /* EZRValueSnapshotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0130C42110592A00ADA094 /* EZRValueSnapshotView.xib */; };
 		CE22ECCF20A985BB003CE2EC /* EZRTransformSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22ECCC20A98527003CE2EC /* EZRTransformSpec.m */; };
+		CE6AA29D210EF540003A557D /* EZRTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AA29C210EF540003A557D /* EZRTimeLineView.m */; };
+		CE6AA29F210EF54B003A557D /* EZRTimeLineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6AA29E210EF54B003A557D /* EZRTimeLineView.xib */; };
+		CE6AA2A2210EFB66003A557D /* EZRControlPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AA2A1210EFB66003A557D /* EZRControlPanelView.m */; };
+		CE6AA2A4210EFC2D003A557D /* EZRControlPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6AA2A3210EFC2D003A557D /* EZRControlPanelView.xib */; };
+		CE6AA2A8210EFFB7003A557D /* EZRMapReplaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AA2A7210EFFB7003A557D /* EZRMapReplaceViewController.m */; };
+		CE6AA2AA210EFFC1003A557D /* MapReplace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6AA2A9210EFFC1003A557D /* MapReplace.storyboard */; };
 		CE7038AB1F32D54C00322AF8 /* beEmptyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222515D31F28823F00291583 /* beEmptyValue.swift */; };
 		CE7038B21F331C8B00322AF8 /* beReleasedCorrectly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7038B11F331C8B00322AF8 /* beReleasedCorrectly.swift */; };
 		CE796AB51F70CD3B00EB463E /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE796AB41F70CD3B00EB463E /* TestObject.m */; };
@@ -135,7 +143,19 @@
 		AE677CF33CF44183F9E6FF53 /* Pods-EasyReact_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReact_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReact_Tests/Pods-EasyReact_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D172FCD4CCC447B2169939 /* Pods_EasyReact_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyReact_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C07CC986F3E21BD870122E /* Pods-EasyReact_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReact_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReact_Example/Pods-EasyReact_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE0130C1211055F900ADA094 /* EZRValueSnapshotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRValueSnapshotView.h; sourceTree = "<group>"; };
+		CE0130C2211055F900ADA094 /* EZRValueSnapshotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRValueSnapshotView.m; sourceTree = "<group>"; };
+		CE0130C42110592A00ADA094 /* EZRValueSnapshotView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EZRValueSnapshotView.xib; sourceTree = "<group>"; };
 		CE22ECCC20A98527003CE2EC /* EZRTransformSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRTransformSpec.m; sourceTree = "<group>"; };
+		CE6AA29B210EF540003A557D /* EZRTimeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRTimeLineView.h; sourceTree = "<group>"; };
+		CE6AA29C210EF540003A557D /* EZRTimeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRTimeLineView.m; sourceTree = "<group>"; };
+		CE6AA29E210EF54B003A557D /* EZRTimeLineView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EZRTimeLineView.xib; sourceTree = "<group>"; };
+		CE6AA2A0210EFB66003A557D /* EZRControlPanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRControlPanelView.h; sourceTree = "<group>"; };
+		CE6AA2A1210EFB66003A557D /* EZRControlPanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRControlPanelView.m; sourceTree = "<group>"; };
+		CE6AA2A3210EFC2D003A557D /* EZRControlPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EZRControlPanelView.xib; sourceTree = "<group>"; };
+		CE6AA2A6210EFFB7003A557D /* EZRMapReplaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZRMapReplaceViewController.h; sourceTree = "<group>"; };
+		CE6AA2A7210EFFB7003A557D /* EZRMapReplaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZRMapReplaceViewController.m; sourceTree = "<group>"; };
+		CE6AA2A9210EFFC1003A557D /* MapReplace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapReplace.storyboard; sourceTree = "<group>"; };
 		CE7038B11F331C8B00322AF8 /* beReleasedCorrectly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beReleasedCorrectly.swift; sourceTree = "<group>"; };
 		CE796AB31F70CD3B00EB463E /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		CE796AB41F70CD3B00EB463E /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
@@ -243,6 +263,7 @@
 		224261CF210DBF67006A89D7 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				CE6AA2A5210EFF61003A557D /* MapReplace */,
 				224261D6210DC789006A89D7 /* Map */,
 				224261D0210DBF91006A89D7 /* Fork */,
 			);
@@ -338,6 +359,7 @@
 		6003F593195388D20070C39A /* Example for EasyReact */ = {
 			isa = PBXGroup;
 			children = (
+				CE6AA299210EF4A1003A557D /* Vendors */,
 				224261CF210DBF67006A89D7 /* Examples */,
 				224261CB210DB9D7006A89D7 /* Libs */,
 				6003F59C195388D20070C39A /* ERAppDelegate.h */,
@@ -401,6 +423,40 @@
 				38AD5F16ADF642BD02DCAF5E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CE6AA299210EF4A1003A557D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AA29A210EF4B8003A557D /* Views */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		CE6AA29A210EF4B8003A557D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AA29B210EF540003A557D /* EZRTimeLineView.h */,
+				CE6AA29C210EF540003A557D /* EZRTimeLineView.m */,
+				CE6AA29E210EF54B003A557D /* EZRTimeLineView.xib */,
+				CE6AA2A0210EFB66003A557D /* EZRControlPanelView.h */,
+				CE6AA2A1210EFB66003A557D /* EZRControlPanelView.m */,
+				CE6AA2A3210EFC2D003A557D /* EZRControlPanelView.xib */,
+				CE0130C1211055F900ADA094 /* EZRValueSnapshotView.h */,
+				CE0130C2211055F900ADA094 /* EZRValueSnapshotView.m */,
+				CE0130C42110592A00ADA094 /* EZRValueSnapshotView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6AA2A5210EFF61003A557D /* MapReplace */ = {
+			isa = PBXGroup;
+			children = (
+				CE6AA2A6210EFFB7003A557D /* EZRMapReplaceViewController.h */,
+				CE6AA2A7210EFFB7003A557D /* EZRMapReplaceViewController.m */,
+				CE6AA2A9210EFFC1003A557D /* MapReplace.storyboard */,
+			);
+			path = MapReplace;
 			sourceTree = "<group>";
 		};
 		CE796ABD1F70FB5000EB463E /* Target */ = {
@@ -583,12 +639,16 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				224261D2210DBFB8006A89D7 /* Fork.storyboard in Resources */,
+				CE0130C52110592A00ADA094 /* EZRValueSnapshotView.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				224261DB210DC789006A89D7 /* Map.storyboard in Resources */,
+				CE6AA29F210EF54B003A557D /* EZRTimeLineView.xib in Resources */,
 				224261E8210DE693006A89D7 /* EZRNodeValueTraceCell.xib in Resources */,
+				CE6AA2AA210EFFC1003A557D /* MapReplace.storyboard in Resources */,
 				224261E3210DDC7E006A89D7 /* NodeValueView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				CE6AA2A4210EFC2D003A557D /* EZRControlPanelView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +712,7 @@
 				"${BUILT_PRODUCTS_DIR}/EasyReact/EasyReact.framework",
 				"${BUILT_PRODUCTS_DIR}/EasySequence/EasySequence.framework",
 				"${BUILT_PRODUCTS_DIR}/EasyTuple/EasyTuple.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -659,6 +720,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyReact.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasySequence.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTuple.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -756,9 +818,13 @@
 				6003F59E195388D20070C39A /* ERAppDelegate.m in Sources */,
 				224261CE210DBA9A006A89D7 /* UITextField+EZR_Extension.m in Sources */,
 				224261E1210DCE40006A89D7 /* EZRMapViewController.m in Sources */,
+				CE6AA2A2210EFB66003A557D /* EZRControlPanelView.m in Sources */,
 				224261E7210DE693006A89D7 /* EZRNodeValueTraceCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CE0130C3211055F900ADA094 /* EZRValueSnapshotView.m in Sources */,
 				224261DE210DC8B9006A89D7 /* EZRJSVM.m in Sources */,
+				CE6AA2A8210EFFB7003A557D /* EZRMapReplaceViewController.m in Sources */,
+				CE6AA29D210EF540003A557D /* EZRTimeLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

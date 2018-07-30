@@ -15,12 +15,13 @@
  **/
 
 #import "ERAppDelegate.h"
+#import <EasyReact/EasyReact.h>
 
 @implementation ERAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+ 
     return YES;
 }
 
